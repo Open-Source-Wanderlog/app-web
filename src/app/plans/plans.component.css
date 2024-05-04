@@ -1,0 +1,10 @@
+.plan-card {
+  background: #91B7D9;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgb(0, 9, 23);
+}
+
+.image {
+  background: none;
+}
