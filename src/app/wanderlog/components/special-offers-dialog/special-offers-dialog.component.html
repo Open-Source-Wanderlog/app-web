@@ -1,0 +1,9 @@
+<button mat-button (click)="closeDialog()">Close</button>
+<div *ngFor="let specialOffer of specialOffers" style="padding: 20px">
+    <div style="background-color: #D0E4FF">
+        <h2 style="padding: 20px">{{ specialOffer.offersName }}</h2>
+        <p style="padding: 20px">{{ specialOffer.offerDescription }}</p>
+        <p style="padding: 20px">Offer price: {{ specialOffer.offerPrice }}</p>
+    </div>
+
+</div>
