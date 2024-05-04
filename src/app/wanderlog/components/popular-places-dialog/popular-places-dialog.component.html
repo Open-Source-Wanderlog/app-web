@@ -1,0 +1,9 @@
+<button mat-button (click)="closeDialog()">Close</button>
+<div *ngFor="let source of sources" style="padding: 20px">
+    <div style="background-color: #D0E4FF">
+        <h2 style="padding: 20px">{{ source.name }}</h2>
+        <p style="padding: 20px">{{ source.description }}</p>
+        <p style="padding: 20px">Flight Price: {{ source.flightPrice }}</p>
+        <p style="padding: 20px">Hotel Price: {{ source.hotelPrice }}</p>
+    </div>
+</div>
